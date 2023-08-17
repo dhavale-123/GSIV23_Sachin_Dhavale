@@ -4,7 +4,6 @@ import './index.css';
 import App from './App';
 import { Provider } from 'react-redux';
 import store from './Redux/Store/Store';
-import { persistStore, persistReducer } from 'redux-persist';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
